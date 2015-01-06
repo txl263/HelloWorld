@@ -18,6 +18,7 @@
 		0711B5B21A5C656300785F21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0711B5911A5C656300785F21 /* Cocoa.framework */; };
 		0711B5BA1A5C656300785F21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0711B5B81A5C656300785F21 /* InfoPlist.strings */; };
 		0711B5BC1A5C656300785F21 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0711B5BB1A5C656300785F21 /* HelloWorldTests.m */; };
+		0711B5C71A5C65BF00785F21 /* helloworld.m in Sources */ = {isa = PBXBuildFile; fileRef = 0711B5C61A5C65BF00785F21 /* helloworld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0711B5B71A5C656300785F21 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		0711B5B91A5C656300785F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0711B5BB1A5C656300785F21 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		0711B5C51A5C65BF00785F21 /* helloworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloworld.h; sourceTree = "<group>"; };
+		0711B5C61A5C65BF00785F21 /* helloworld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helloworld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				0711B5A31A5C656300785F21 /* AppDelegate.h */,
+				0711B5C51A5C65BF00785F21 /* helloworld.h */,
+				0711B5C61A5C65BF00785F21 /* helloworld.m */,
 				0711B5A41A5C656300785F21 /* AppDelegate.m */,
 				0711B5A61A5C656300785F21 /* MainMenu.xib */,
 				0711B5A91A5C656300785F21 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0711B5A51A5C656300785F21 /* AppDelegate.m in Sources */,
+				0711B5C71A5C65BF00785F21 /* helloworld.m in Sources */,
 				0711B59E1A5C656300785F21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
